@@ -1,0 +1,6 @@
+---
+
+- hosts: localhost
+  roles:
+    - role: arch-wsl-setup
+      tags: arch-wsl-setup 

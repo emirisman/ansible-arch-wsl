@@ -1,0 +1,37 @@
+---
+
+- name: Install base stuff
+  become: True
+  pacman:
+    name:
+      - gcc
+      - make
+      - unzip
+      - go
+      - docker
+      - docker-compose
+      - kubectl
+      - kubectx
+      - kubeseal
+      - helm
+      - k9s
+      - zsh
+      - openssh
+      - htop
+      - curl
+      - wget
+      - git
+      - which
+      - rsync
+      - gnupg
+      - neofetch
+      - jdk11-openjdk
+      - jq
+      - groff
+      - man-db
+      - glibc
+      - lsof
+      - python-virtualenv
+      - diffutils
+      - ghc
+    state: present
